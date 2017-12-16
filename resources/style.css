@@ -12,6 +12,12 @@ h2, h4 {
   padding: 10px;
 }
 
+h5 {
+  display: block;
+  font-size: 0.83em;
+  font-weight: bold;
+}
+
 /*header section*/
 .flex-container {
   display: flex;
@@ -99,4 +105,15 @@ nav span a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+/*main content section*/
+
+/*contact and footer section*/
+#contact {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
 }
