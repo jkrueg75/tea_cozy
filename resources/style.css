@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
@@ -7,19 +8,34 @@ body {
   text-align: center;
 }
 
-header {
+.flex-container {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+header {
   align-items: center;
   position: fixed;
   z-index: 1;
   width: 100%;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid seashell;
+  height: 69px;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
   flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
 }
 
 nav span a {
